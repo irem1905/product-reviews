@@ -1,0 +1,160 @@
+:root {
+    --color: #4b2347;
+    --background-color-murasaki-card: #512050;
+    --color-aluminium-powder: #ada0ac;
+    --background-color-yellow: #ffd417;
+    --background-color-foamy-milk: #F7F2F7;
+    --color-white: #ffffff;
+    --color-purple-hollyhock: #db71af;
+    --color-paragraph-soft-lavender: #f7defb;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+.first-paragraph {
+    color: var(--color);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.second-paragraph {
+    color: var(--color-aluminium-powder);
+    font-size: 13px;
+}
+
+.star-one {
+    background-color: var(--background-color-foamy-milk);
+    color: var(--background-color-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 5px;
+    height: 60px;
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+.evaluation-one {
+    color: var(--color);
+}
+
+.star-two {
+    background-color: var(--background-color-foamy-milk);
+    color: var(--background-color-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 5px;
+    height: 60px;
+    margin-bottom: 15px;
+    width: 450px;
+    margin-left: 15%;
+}
+
+.evaluation-two {
+    color: var(--color);
+}
+
+.star-three {
+    background-color: var(--background-color-foamy-milk);
+    color: var(--background-color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 450px;
+    margin-left: 30%;
+}
+
+.evaluation-three {
+    color: var(--color);
+}
+
+.writing-and-scoring {
+    display: flex;
+    align-items: center;
+    gap: 29%;
+    margin-bottom: 60px;
+}
+
+.name {
+    color: var(--color-white);
+}
+
+.explanation {
+    color: var(--color-purple-hollyhock);
+}
+
+.first-card {
+    background-color: var(--background-color-murasaki-card);
+    border-radius: 20px;
+    width: 25%;
+    padding: 30px;
+}
+
+.second-card {
+    background-color: var(--background-color-murasaki-card);
+    border-radius: 20px;
+    width: 25%;
+    padding: 30px;
+}
+
+.third-card {
+    background-color: var(--background-color-murasaki-card);
+    border-radius: 20px;
+    width: 25%;
+    padding: 30px;
+}
+
+.paragraph {
+    color: var(--color-paragraph-soft-lavender);
+}
+
+.commend-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name-picture {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.name-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.colton {
+    border-radius: 28px;
+    margin: 20px 10px 0 15px;
+
+}
+
+.ırene {
+    border-radius: 28px;
+    margin: 20px 10px 0 15px;
+}
+
+.albert {
+    border-radius: 28px;
+    margin: 20px 10px 0 15px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+}
